@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.vertical-timeline-custom-line::before {
+  background: rgb(255, 255, 255, 0.2) !important;
+}
+
+.vertical-timeline-element-content {
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+    0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+  padding: 2em 3em !important;
+}
+
+.vertical-timeline-element-date {
+  color: rgb(255, 255, 255, 0.8) !important;
+}
